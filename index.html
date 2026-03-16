@@ -1,44 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Meu Portfólio</title>
+
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
+<nav class="menu">
+
 <h1>Meu Portfólio</h1>
-<p>Desenvolvedor Web</p>
+
+<ul>
+<li><a href="#sobre">Sobre mim</a></li>
+<li><a href="#projetos">Meus Projetos</a></li>
+</ul>
+
+</nav>
 </header>
 
-<section class="sobre">
+
+<main>
+
+<section id="sobre">
+
 <h2>Sobre mim</h2>
-<p>Sou desenvolvedor e crio aplicações web utilizando HTML, CSS e JavaScript.</p>
-</section>
 
-<section class="projetos">
-<h2>Projetos</h2>
-
-<div class="card">
-<h3>Projeto 1</h3>
-<p>Descrição do projeto.</p>
-<a href="#">Ver projeto</a>
-</div>
-
-<div class="card">
-<h3>Projeto 2</h3>
-<p>Descrição do projeto.</p>
-<a href="#">Ver projeto</a>
-</div>
+<p>
+Olá! Meu nome é João e sou desenvolvedor web.  
+Tenho interesse em desenvolvimento front-end utilizando HTML,
+CSS e JavaScript.
+</p>
 
 </section>
+
+
+<section id="projetos">
+
+<h2>Meus Projetos</h2>
+
+<div id="lista-projetos" class="projetos-container">
+
+<!-- Projetos serão inseridos aqui via JavaScript -->
+
+</div>
+
+</section>
+
+</main>
+
 
 <footer>
+
 <p>© 2026 - Meu nome</p>
+
 </footer>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
