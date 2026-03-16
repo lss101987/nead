@@ -1,20 +1,23 @@
 const projetos = [
 
 {
-titulo: "Sistema de Cadastro",
-descricao: "Sistema web para cadastro de usuários utilizando HTML, CSS e JavaScript.",
+titulo: "Sistema de Fiscalização Online",
+descricao: "Sistema web desenvolvido para registrar fiscalizações em estabelecimentos de saúde. Permite cadastro de visitas, registro de irregularidades e geração de relatórios automáticos.",
+tecnologias: "HTML, CSS, JavaScript",
 link: "#"
 },
 
 {
-titulo: "Dashboard Administrativo",
-descricao: "Painel administrativo com gráficos e interface moderna.",
+titulo: "Dashboard Administrativo de Indicadores",
+descricao: "Painel administrativo para visualização de indicadores institucionais. O sistema apresenta gráficos, filtros e estatísticas para facilitar a tomada de decisão.",
+tecnologias: "JavaScript, Chart.js, CSS",
 link: "#"
 },
 
 {
-titulo: "Landing Page",
-descricao: "Página de apresentação responsiva para empresa.",
+titulo: "Sistema de Gerenciamento de Documentos",
+descricao: "Aplicação para envio e organização de documentos digitais. Permite upload de arquivos, categorização e consulta rápida dos documentos enviados.",
+tecnologias: "HTML, JavaScript, APIs",
 link: "#"
 }
 
@@ -33,6 +36,7 @@ card.classList.add("card");
 card.innerHTML = `
 <h3>${projeto.titulo}</h3>
 <p>${projeto.descricao}</p>
+<p><strong>Tecnologias:</strong> ${projeto.tecnologias}</p>
 <a href="${projeto.link}" target="_blank">Ver projeto</a>
 `;
 
